@@ -1,0 +1,22 @@
+/*CSS Example 1*/
+.wrapper{
+    margin: 5px;
+}
+
+h1{
+    text-align: center; /*auto;*/
+}
+/*This is how we shape the size of our HTML elements. There are a couple of different ways we can size things, we can use percentages, or explicit sizes like pixels. There is also AUTO which is the default way to size things, this means that the browser calculates the size.*/
+
+.example1{
+    height: 150px;
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+.example2 img{
+    width: 400px;
+    height: 400px;
+}
+
+/*Play with different values and see how the values affect the size of different elements.*/

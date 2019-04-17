@@ -1,0 +1,24 @@
+/*CSS, (Cascading Style Sheets) is the language we use to tell the browser what elements in our HTML documents SHOULD LOOK LIKE. It's common to hear HTML described as the skeleton of our document and CSS described as the skin. This is because HTML defines where elements are rendered, and CSS defines the characteristics of those elements.*/
+
+/*Using the ID and CLASS attributes, we can use CSS to target a single specific element (id), or apply a style to all of the elements of a group (class).*/
+
+/*You can use CSS to do the following:
+1.Give the outside of the site a unquie look and feel.
+2.Alter colors, fonts, backgrounds, etc.
+3.To implement some effects and light animations.*/
+
+/*In the sample code, note that we're using a <link> tag inside of the <head> to tie a CSS file to our HTML. This is done in the <head> so that the browser will load the CSS file before it renders the HTML elements. Because the browser reads line-by-line, if we loaded the CSS file at the bottom of the page, then the HTML will have already rendered and the result may be a negative experience for our users. This is especially evident on a slow connection, because all of the processes (including loading CSS) SIMPLY TAKE LONGER to make their way down the wire.*/
+
+/*At this point, let's go ahead and grab another image to visualize how a .css statement is written. Grab a picture and save it to your 4-assets folder.*/
+
+/*This is how to make comments in CSS*/
+
+body {
+    background-color: blueviolet;
+}
+
+.wrapper {
+    border: 10px solid red;
+}
+
+/*IN this lesson, we've introduced the concepts of CLASS and ID, as well as shown how (and just as importantly, WHY) to add a CSS file to the head of an HTML document. We've also made you aware of CLASS and ID, which we'll explore in greater depth in the following lessons.*/

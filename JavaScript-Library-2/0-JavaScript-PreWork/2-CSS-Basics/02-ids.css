@@ -1,0 +1,28 @@
+/*The ID attribute is a UNIQUE identifier. Where a CLASS attribute can be applied to many different elements, an ID points to only ONE element. This allows you to manipulate that particular element without worrying about affecting anything else.*/
+
+/* Futhermore, an ID takes precedent over CLASSES. if, for example, you have  conflicting CSS styling on a particular element, one under a class element and the other under an id, the ID attribute will be used. This allows you to prioritize your styling and, if needed, overrule generalized styling of your app.*/
+
+/*For Testing*/
+/*body {
+    background-color: blue;
+}*/
+
+#number-one{
+    color: red;
+}
+
+#number-two{
+    font-size: 16px;
+}
+
+.first-class{
+    color: green;
+}
+
+.second-class{
+    font-size: 24px;
+}
+
+/*Having the knowledge of classes under our belts, we can examine the uses of ID. When we want to target serveral elements, CLASS is the right choice. If we're trying to target a single element, that's when ID is preferable. In our above example, we've shown not only how to target with an ID, but also proven that multiple classes can be assigned to a single element. Finally it's important to recognize that our very last <p> has both an ID AND a CLASS*/
+
+/*Take note of the detail that when a PROPERTY is assigned a conflicting VALUE in both ID and a CLASS, such as our #number-one and .first-class, the ID has preference. In the case of our example, this means that COLOR receives the VALUE of "red".*/

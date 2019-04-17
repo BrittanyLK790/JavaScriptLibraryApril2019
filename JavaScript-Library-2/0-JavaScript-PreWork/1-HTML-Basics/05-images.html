@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Images</title>
+</head>
+<body>
+
+    <h3>Image referenced from inside the project</h3>
+    <img src="../4-assests/TurnForTheWorse.jpg" width="300" height="300">
+
+    <hr>
+    <h3>Referencing an outside URL</h3>
+    <img src="http://www.ufunk.net/wp-content/uploads/2012/01/retro-robot-donut-eric-joyner-01.jpg">
+
+    <hr>
+
+    <h3>Image referencing another page from an image</h3>
+    <a href="https://ericjoyner.com/turnfortheworse/"><img src="../4-assets/TurnForTheWorse.jpg" width="300" height="300">
+    </a>
+
+    <hr>
+
+    <h3>Adding a little style to the image</h3>
+    <a href="https://ericjoyner.com/turnfortheworse/"><img src="../4-assests/TurnForTheWorse.jpg" class="circle" width="300" height="300">
+    </a>
+
+    <style>
+    
+    .circle{
+        border-radius: 150px;
+    }
+
+    </style>
+</body>
+</html>
+
+<!--Self-Closing Tags, Here are a few tags for organizing concepts. They are not as common, but useful to know. They also can teach us about self-closing tags. Self-closing tags only hve one tag involved. They are open and closed. We can write like this: <hr /> or <hr>.
+hr Stands for HORIZONTAL rule: Used to seperate content. Provides a horizontal line between items.
+br IS simply a line BREAK: seperates content using white space instead of a line.(We used one here, to prevent the sentence about br from wrapping up to the line above!)-->
+
+<!--First Example, we're referencing a location inside our project using relative pathing in the SRC attribute. In this case, we back up one step (../) in the directory tree and then dive into our ../4-assets; and then point directly at the image we want to be displayed (/TurnForTheWorse.jpg). The entire path that you type out should look like this: ../4-assets/TurnForTheWorst.jpg.
+In other Examples, we've nested <img> tags inside of <a> tags so that the images themselves act as links. The final Example uses the CLASS attribute and the <style tag to display our picture as a circle.-->
+<a href="https://ericjoyner/turnfortheworse/" target="blank"></a>

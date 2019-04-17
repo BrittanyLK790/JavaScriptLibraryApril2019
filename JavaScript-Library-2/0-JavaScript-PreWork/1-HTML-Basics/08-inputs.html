@@ -1,0 +1,17 @@
+<!--Input tags are one of several element types that allow users to interact with your webite. Their use is probably self-explanatory, but for clarity let's just say that the <input /> tag provides an empty field which can be filled with text.-->
+
+<!--You may have noticed that <input/> doesn't have a mated closing tag. Much like <br /> or <hr />, this tag is an "empty" element. You may see empty elements referred to as "void" or "self-closing". All of these terms mean roughly the same thing: they don't require a closing tag. The reason for this is that the entire element is described by a single tag. These elements may not contain additional content, which also means that you can't nest a <div></div> or any other element inside of them. HOWEVER, they may have attributes, such as a CLASS or ID for purposes such as styling.-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input</title>
+    </head>
+    <body>
+        <h1>Input Tag</h1>
+        <p>Name</p><input />
+        <p>Email</p><input>
+    </body>
+</html>
+
+<!--As mentioned, the input tag is ubiquitous. It's important to identify that when we describe it using HTML, the browser merely renders a LOCATION for input to be placed. To actually capture the information that users insert requires the use of JavaScript. Another detail worth clarifying is a difference you may have noticed when writing this code: one of the inputs is written as <input />, while the other is written as <input>. What's with the difference. and why do they both still work? The explanation is simply that empty elements do not REQUIRE a closing /. HTML5 is smart enough to know what's going on. However, it is woth noting that it's good practice to close all of your elements for the sale of specificity. Programming with intention is a hallmark of great developer.-->

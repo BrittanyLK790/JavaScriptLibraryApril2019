@@ -1,0 +1,30 @@
+/*Fixed positions*/
+.wrapper{
+    margin: 5px;
+}
+
+.nav{
+    position: fixed;
+    top: 0px; 
+    right: 0px;
+    width: 250px;
+    background-color: lightgray;
+    border: 3px soild navy;
+}
+/*If you had to guess, what do you think "fixed" position means, it means that an element with position: fixed; is positioned relative to the viewpoint, which means it always stays in the same place even if the page isscrolled. The top, right, bottom, and left properties ae used to position the element. */
+/*Notice how we've used top: 0; and right: 0; in addition to position: fixed;. The 0 next to TOP and RIGHT means that we are positioning this fixed element at the 0 position top and right, which means that it should be all the way right and all the way to the top, 0 amount away from the top and right. The other properties here are just styling our .nav element to have a width of 250 pixels, with a background color of light gray, and a navy border.*/
+/*Try changing the top and right to 150px, see what happens.*/
+.positioning{
+    width: 75%;
+    background-color: lightgrey;
+}
+
+.positioning h1{
+    text-align: center;
+}
+
+.lotsofttext{
+    text-align: left;
+    background-color: lightblue;
+    width: 75%;
+}

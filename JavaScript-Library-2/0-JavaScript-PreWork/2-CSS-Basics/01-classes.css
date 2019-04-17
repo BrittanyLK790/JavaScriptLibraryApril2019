@@ -1,0 +1,36 @@
+/*Classes are one of the ways we have to target elements for styling in CSS. Using CLASS allows you to apply thematic concepts to elements that can be easily modified. For example, if you want every <button> and every <a> tag to have the same text color, assigning a CLASS allows you to specify a VALUE for the property color: to that CLASS. Let's explore this a little bit more by writing some HTML and assigning a CLASS to several elements so we can see how classes can affect several elements using the same rules.*/
+/*2*/
+body {
+    background-color: lightblue;
+}
+
+/*this styles everything within the css-classes class*/
+.css-classes {
+    background-color: lightgray;
+}
+
+/*this styles all the p tags within the css-classes class*/
+.css-classes {
+    font-size: 18px;
+}
+
+.css-classes {
+    font-size: 16px;
+    color: green;
+
+}
+
+/*this styles all the li items within the css-classes class*/
+.css-classes {
+    color: navy;
+}
+
+/*Breaking down the code a little bit, let's first recongize that we've assigned a CLASS of "css-classes" to all of the <div> tags above. Remember, CLASS is an ATTRIBUTE that we can use to change the way HTML elements behave. Now we can delve into the .css file!*/
+
+/*The first thing to identify in the .css file is that it's possible to reference generic HTML elements by their tag type.*/
+
+/*We've done this by using the SELECTOR of BODY. This is followed by a { which indicates that we're STARTING our ruleset. We then move into the ruleset and choose a PROPERTY. In the case of our BODY tag, we're choosing to change the background-color: and then we assign it the VALUE of LIGHTPURPLE. If it isn't obvious, this states to the browser that all elements with a <body> tag will have a background that's lightpurple. We state that the assignment is completed with a ; at the end of the line. Finally, the ruleset is closed by a mated }. Just like in HTML, every opening { needs a closing } to let the browser know that we're done giving it instructions for the specific element/class.*/
+
+/*Native HTML tags are one thing, but what about custom .css classes? Well, we identified "css-classes" a moment ago, and in the .css file we can see an entry with the same name. The only difference is that custom classes must be targeted using the . operator before the class name, as is reflected in the .css file above.*/
+
+/*The last thing we need to discuss before moving on to the next lesson is descendant selectors. We know how to target a CLASS using .class, but what if we want to target specific HTML elements in our CLASS, but nowhere else? CSS has a neat trick where every element type that is a child can be easily pointed at by appending the element type to the end of our CLASS. This is reflected with the syntax .css-classesh1 in our code above.*/
