@@ -1,0 +1,48 @@
+.font{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Economica', sans-serif;
+}
+body{
+    background-image: url("4-assets\pexels.jpeg");
+    margin: auto
+}
+
+.wrapper{
+    margin: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Economica', sans-serif;
+}
+
+p{
+    margin: 10px;
+}
+
+.example1 h1{
+
+}
+
+.example1 li:nth-child(1){
+
+}
+
+.example2 li:nth-child(2){
+
+}
+
+.example3 li:nth-child(3){
+
+}
+
+.example2{
+
+}
+
+.example3{
+
+}
